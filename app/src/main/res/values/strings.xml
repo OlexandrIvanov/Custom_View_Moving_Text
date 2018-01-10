@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text1">Text my</string>
+    <string name="my_text1"><![CDATA[<u>Text one</u>]]></string>
+    <string name="my_text2"><![CDATA[<u>Text 22222222</u>]]></string>
+    <string name="my_text3"><![CDATA[<u>Text three</u>]]></string>
+
+
+    <string name="textOnMainActivity">Android — операционная система для смартфонов, планшетов, электронных книг,
+        цифровых проигрывателей, наручных часов,
+        игровых приставок, нетбуков, смартбуков, очков Google,
+        телевизоров и других устройств.
+    </string>
+
+    <string name="textOnMainActivity2">Android — операционная система для смартфонов, планшетов, электронных книг.
+
+    </string>
+
+
+</resources>

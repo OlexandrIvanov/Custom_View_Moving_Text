@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.myapplication.MainActivity">
+
+    <asia.ivity.android.marqueeview.MarqueeView
+        android:id="@+id/marqueeView100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/textViewThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/textOnMainActivity2"
+            tools:ignore="HardcodedText" />
+    </asia.ivity.android.marqueeview.MarqueeView>
+
+    <com.example.asus.myapplication.MarqueeView2
+        android:id="@+id/marqueeView102"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/textOnMainActivity2"
+            tools:ignore="HardcodedText" />
+    </com.example.asus.myapplication.MarqueeView2>
+
+    <asia.ivity.android.marqueeview.MarqueeView
+        android:id="@+id/marqueeView103"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="110dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/textOnMainActivity2"
+            tools:ignore="HardcodedText" />
+    </asia.ivity.android.marqueeview.MarqueeView>
+
+
+    <com.example.asus.myapplication.MarqueeView2
+        android:id="@+id/marqueeView104"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="140dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/textOnMainActivity2"
+            tools:ignore="HardcodedText" />
+    </com.example.asus.myapplication.MarqueeView2>
+
+
+
+
+
+
+
+</RelativeLayout>
